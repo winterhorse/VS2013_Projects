@@ -178,6 +178,9 @@
     <ClInclude Include="inc\src_v4l2.hpp" />
     <ClInclude Include="inc\view.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\Content\settings.xml" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

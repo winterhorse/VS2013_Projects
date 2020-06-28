@@ -1,43 +1,9 @@
-﻿生成启动时间为 2020-05-06 10:08:40。
-     1>项目“C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\Projects\Rendering\Rendering.vcxproj”在节点 2 上(Build 个目标)。
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\main.cpp
-         main.cpp
-     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\rendering\inc\camera.hpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\rendering\inc\lines.hpp(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\rendering\inc\lines.hpp(108): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\rendering\inc\lines.hpp(113): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\rendering\inc\lines.hpp(114): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\rendering\inc\lines.hpp(118): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\rendering\inc\lines.hpp(119): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>C:\NXP\myProjects\Project_VS2013\inc\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>src\main.cpp(578): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\Rendering.exe" /INCREMENTAL /NOLOGO libVDK.lib libGLESv2.lib freetype.lib assimp.lib opencv_aruco320d.lib opencv_bgsegm320d.lib opencv_bioinspired320d.lib opencv_calib3d320d.lib opencv_ccalib320d.lib opencv_core320d.lib libxml2.lib opencv_datasets320d.lib opencv_dnn320d.lib opencv_dpm320d.lib opencv_face320d.lib opencv_features2d320d.lib opencv_flann320d.lib opencv_fuzzy320d.lib opencv_highgui320d.lib opencv_imgcodecs320d.lib opencv_imgproc320d.lib opencv_line_descriptor320d.lib opencv_ml320d.lib opencv_objdetect320d.lib opencv_optflow320d.lib opencv_phase_unwrapping320d.lib opencv_photo320d.lib opencv_plot320d.lib opencv_reg320d.lib opencv_rgbd320d.lib opencv_saliency320d.lib opencv_shape320d.lib opencv_stereo320d.lib opencv_stitching320d.lib opencv_structured_light320d.lib opencv_superres320d.lib opencv_surface_matching320d.lib opencv_text320d.lib opencv_tracking320d.lib opencv_video320d.lib opencv_videoio320d.lib opencv_videostab320d.lib opencv_xfeatures2d320d.lib opencv_ximgproc320d.lib opencv_xobjdetect320d.lib opencv_xphoto320d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\Rendering.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\Rendering.lib" /MACHINE:X64 x64\Debug\camera.obj
-         x64\Debug\camera_tex.obj
-         x64\Debug\defisheye.obj
-         x64\Debug\exposure_compensator.obj
-         x64\Debug\FontRenderer.obj
-         x64\Debug\gain.obj
-         x64\Debug\gl_shaders.obj
-         x64\Debug\grid.obj
-         x64\Debug\main.obj
-         x64\Debug\masks.obj
-         x64\Debug\Material.obj
-         x64\Debug\ModelLoader.obj
-         x64\Debug\VBO.obj
-         x64\Debug\MRT.obj
-         x64\Debug\settings.obj
-         x64\Debug\src_contours.obj
-         x64\Debug\src_v4l2.obj
-         x64\Debug\view.obj
-         Rendering.vcxproj -> C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\Rendering.exe
-     1>已完成生成项目“C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\Projects\Rendering\Rendering.vcxproj”(Build 个目标)的操作。
+﻿生成启动时间为 2020/6/28 15:08:51。
+     1>项目“D:\MyProjects\Project_VS2013\Solutions\SurroundView\Projects\Rendering\Rendering.vcxproj”在节点 3 上(Build 个目标)。
+     1>Link:
+         Rendering.vcxproj -> D:\MyProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\Rendering.exe
+     1>已完成生成项目“D:\MyProjects\Project_VS2013\Solutions\SurroundView\Projects\Rendering\Rendering.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:03.30
+已用时间 00:00:00.28
