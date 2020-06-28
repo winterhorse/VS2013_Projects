@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calibration", "Projects\Cal
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rendering", "Projects\Rendering\Rendering.vcxproj", "{FCD94307-C392-45BA-97CC-71DA74C58F1B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2DStitching", "Projects\2DStitching\2DStitching.vcxproj", "{2A6C2B72-9945-409B-80A6-9D110E197C8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -40,6 +42,18 @@ Global
 		{FCD94307-C392-45BA-97CC-71DA74C58F1B}.Release|Win32.ActiveCfg = Release|Win32
 		{FCD94307-C392-45BA-97CC-71DA74C58F1B}.Release|Win32.Build.0 = Release|Win32
 		{FCD94307-C392-45BA-97CC-71DA74C58F1B}.Release|x64.ActiveCfg = Release|Win32
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Debug|Win32.Build.0 = Debug|Win32
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Debug|x64.ActiveCfg = Debug|x64
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Debug|x64.Build.0 = Debug|x64
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Release|Win32.ActiveCfg = Release|Win32
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Release|Win32.Build.0 = Release|Win32
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Release|x64.ActiveCfg = Release|x64
+		{2A6C2B72-9945-409B-80A6-9D110E197C8B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

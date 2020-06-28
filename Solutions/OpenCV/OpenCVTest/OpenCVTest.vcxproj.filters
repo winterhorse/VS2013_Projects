@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\360Stitching">
+      <UniqueIdentifier>{22e7fb08-ecae-4280-b9b7-68be0bca80c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FisheyeCalibration">
+      <UniqueIdentifier>{65b27aa9-a18e-43a7-bb4b-fef3b7235dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BirdView">
+      <UniqueIdentifier>{39e85f84-cdb5-4451-8ec3-c123963987da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TestCode">
+      <UniqueIdentifier>{57da6ae3-a4a4-4083-a772-99a46d528489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Stitching">
+      <UniqueIdentifier>{f22fcbd4-0cfa-46a9-be47-a699ce6427c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BirdView\BirdViewTest.cpp">
+      <Filter>源文件\BirdView</Filter>
+    </ClCompile>
+    <ClCompile Include="src\360Stitching\360StitchingTesting.cpp">
+      <Filter>源文件\360Stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\360Stitching\Stitching360.cpp">
+      <Filter>源文件\360Stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FisheyeCalibration\FisheyeCalibration.cpp">
+      <Filter>源文件\FisheyeCalibration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FisheyeCalibration\FisheyeCalibrationTest.cpp">
+      <Filter>源文件\FisheyeCalibration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FisheyeCalibration\SearchContours.cpp">
+      <Filter>源文件\FisheyeCalibration</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestCode\copyTo.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestCode\Demo.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestCode\gpuSupportTest.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestCode\main.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stitching\surf.cpp">
+      <Filter>源文件\Stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stitching\fisheye_calibrate_img.cpp">
+      <Filter>源文件\Stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stitching\PerspectiveTransformation.cpp">
+      <Filter>源文件\Stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Stitching\stitching_test.cpp">
+      <Filter>源文件\Stitching</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestCode\test_remap.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestCode\test_logo.cpp">
+      <Filter>源文件\TestCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BirdView\birdView.hpp">
+      <Filter>源文件\BirdView</Filter>
+    </ClInclude>
+    <ClInclude Include="src\360Stitching\Stitching360.h">
+      <Filter>源文件\360Stitching</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FisheyeCalibration\FisheyeCalibration.h">
+      <Filter>源文件\FisheyeCalibration</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FisheyeCalibration\SearchContours.h">
+      <Filter>源文件\FisheyeCalibration</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\nxp_logo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\left_logo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

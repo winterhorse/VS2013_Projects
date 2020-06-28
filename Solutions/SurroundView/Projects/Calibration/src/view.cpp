@@ -31,8 +31,8 @@
 View::View()
 {
 	current_prog = 0;
-	glBlendFunc(GL_ONE_MINUS_DST_ALPHA, GL_DST_ALPHA); 
-	glBlendFunc(GL_DST_ALPHA, GL_ONE_MINUS_DST_ALPHA);  
+	//glBlendFunc(GL_ONE_MINUS_DST_ALPHA, GL_DST_ALPHA); 
+	//glBlendFunc(GL_DST_ALPHA, GL_ONE_MINUS_DST_ALPHA);  
 	glDisable(GL_DEPTH_TEST);	
 	glEnable(GL_BLEND);
 	glEnable(GL_CULL_FACE);

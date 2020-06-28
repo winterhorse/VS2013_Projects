@@ -1,5 +1,254 @@
-﻿生成启动时间为 2020/2/14 21:06:13。
+﻿生成启动时间为 2020-06-23 17:31:14。
+     1>项目“C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\Projects\Calibration\Calibration.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\camera.cpp src\defisheye.cpp src\exposure_compensator.cpp src\FontRenderer.cpp src\gain.cpp src\gl_shaders.cpp src\grid.cpp src\main.cpp src\masks.cpp src\MRT.cpp src\settings.cpp src\src_contours.cpp src\src_v4l2.cpp src\view.cpp
+         view.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\view.cpp(46): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\view.cpp(48): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\view.cpp(53): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\view.cpp(71): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\view.cpp(113): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\view.cpp(161): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\view.cpp(236): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\view.cpp(265): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\view.cpp(266): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\view.cpp(281): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\view.cpp(282): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\view.cpp(283): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\view.cpp(284): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\view.cpp(364): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\view.cpp(365): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\view.cpp(379): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\view.cpp(380): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\view.cpp(381): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\view.cpp(382): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\view.cpp(514): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         src_v4l2.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         src_contours.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\src_contours.cpp(342): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\src_contours.cpp(345): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+         settings.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\settings.cpp(206): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\settings.cpp(266): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>src\settings.cpp(267): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>src\settings.cpp(269): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>src\settings.cpp(270): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>src\settings.cpp(271): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>src\settings.cpp(374): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(378): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(382): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(386): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(416): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(417): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(422): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(423): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(428): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(429): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(434): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\settings.cpp(435): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         MRT.cpp
+         masks.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\camera.hpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(108): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(113): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(114): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(118): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(119): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(106): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(110): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(111): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(116): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(123): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(131): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(139): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(144): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(150): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(185): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(193): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(355): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(362): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(423): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\masks.cpp(478): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(480): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\masks.cpp(481): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         main.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\Projects\Calibration\inc\camera.hpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(108): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(113): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(114): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(118): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(119): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\main.cpp(85): warning C4101: “creator”: 未引用的局部变量
+     1>src\main.cpp(170): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\main.cpp(219): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\main.cpp(264): warning C4244: “参数”: 从“uint”转换到“float”，可能丢失数据
+     1>src\main.cpp(264): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\main.cpp(320): warning C4244: “参数”: 从“uint”转换到“float”，可能丢失数据
+     1>src\main.cpp(320): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         grid.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\camera.hpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(87): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>src\grid.cpp(88): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>src\grid.cpp(100): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(101): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(108): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(109): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(136): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\grid.cpp(136): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(138): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(139): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(206): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(222): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(226): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(231): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(299): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>src\grid.cpp(428): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>src\grid.cpp(458): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\grid.cpp(459): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\grid.cpp(627): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(634): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(641): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\grid.cpp(645): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(652): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(680): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\grid.cpp(680): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(682): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(683): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\grid.cpp(840): warning C4267: “初始化”: 从“size_t”转换到“uint”，可能丢失数据
+     1>src\grid.cpp(861): warning C4267: “初始化”: 从“size_t”转换到“uint”，可能丢失数据
+     1>src\grid.cpp(893): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\grid.cpp(932): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\grid.cpp(933): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+         gl_shaders.cpp
+         gain.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\camera.hpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(108): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(113): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(114): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(118): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(119): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         FontRenderer.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\FontRenderer.cpp(119): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\FontRenderer.cpp(121): warning C4305: “初始化”: 从“double”到“float”截断
+         exposure_compensator.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\camera.hpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(108): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(113): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(114): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(118): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(119): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(65): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\exposure_compensator.cpp(65): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(102): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>src\exposure_compensator.cpp(104): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\exposure_compensator.cpp(106): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(107): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(108): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(109): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(111): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(112): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(113): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(114): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(116): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(117): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(118): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(119): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\exposure_compensator.cpp(196): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\exposure_compensator.cpp(197): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>src\exposure_compensator.cpp(198): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         defisheye.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>src\defisheye.cpp(92): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\defisheye.cpp(93): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         camera.cpp
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/mat.hpp(1926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\inc\opencv2/imgproc.hpp(617): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\Projects\Calibration\inc\camera.hpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>src\camera.cpp(158): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\camera.cpp(242): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\camera.cpp(326): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\camera.cpp(331): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>src\camera.cpp(366): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>src\camera.cpp(425): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>src\camera.cpp(425): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\camera.cpp(427): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\camera.cpp(428): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\camera.cpp(449): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\src\main.cpp(106): warning C4715: “objectsInit”: 不是所有的控件路径都返回值
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\src\masks.cpp(80): warning C4756: 常量算法中溢出
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\src\masks.cpp(91): warning C4756: 常量算法中溢出
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(101): warning C4756: 常量算法中溢出
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(102): warning C4756: 常量算法中溢出
+     1>c:\nxp\myprojects\project_vs2013\solutions\surroundview\projects\calibration\inc\lines.hpp(101): warning C4756: 常量算法中溢出
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\Calibration.exe" /INCREMENTAL /NOLOGO libVDK.lib libGLESv2.lib freetype.lib assimp.lib opencv_aruco320d.lib opencv_bgsegm320d.lib opencv_bioinspired320d.lib opencv_calib3d320d.lib opencv_ccalib320d.lib opencv_core320d.lib libxml2.lib opencv_datasets320d.lib opencv_dnn320d.lib opencv_dpm320d.lib opencv_face320d.lib opencv_features2d320d.lib opencv_flann320d.lib opencv_fuzzy320d.lib opencv_highgui320d.lib opencv_imgcodecs320d.lib opencv_imgproc320d.lib opencv_line_descriptor320d.lib opencv_ml320d.lib opencv_objdetect320d.lib opencv_optflow320d.lib opencv_phase_unwrapping320d.lib opencv_photo320d.lib opencv_plot320d.lib opencv_reg320d.lib opencv_rgbd320d.lib opencv_saliency320d.lib opencv_shape320d.lib opencv_stereo320d.lib opencv_stitching320d.lib opencv_structured_light320d.lib opencv_superres320d.lib opencv_surface_matching320d.lib opencv_text320d.lib opencv_tracking320d.lib opencv_video320d.lib opencv_videoio320d.lib opencv_videostab320d.lib opencv_xfeatures2d320d.lib opencv_ximgproc320d.lib opencv_xobjdetect320d.lib opencv_xphoto320d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\Calibration.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\Calibration.lib" /MACHINE:X64 x64\Debug\camera.obj
+         x64\Debug\defisheye.obj
+         x64\Debug\exposure_compensator.obj
+         x64\Debug\FontRenderer.obj
+         x64\Debug\gain.obj
+         x64\Debug\gl_shaders.obj
+         x64\Debug\grid.obj
+         x64\Debug\main.obj
+         x64\Debug\masks.obj
+         x64\Debug\MRT.obj
+         x64\Debug\settings.obj
+         x64\Debug\src_contours.obj
+         x64\Debug\src_v4l2.obj
+         x64\Debug\view.obj
+         Calibration.vcxproj -> C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\Calibration.exe
+     1>已完成生成项目“C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\Projects\Calibration\Calibration.vcxproj”(Rebuild 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.10
+已用时间 00:00:17.36

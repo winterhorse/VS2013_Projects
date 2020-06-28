@@ -1,0 +1,8 @@
+#camera intrinsic matrix
+446.188 0 629.314 0 446.914 420.863 0 0 1
+
+#distortion coeffs
+-0.0363368 0.0256738 -0.0224708 0.00570548
+
+#camera new intrinsic matrix
+0 0 0 0 0 0 0 0 0

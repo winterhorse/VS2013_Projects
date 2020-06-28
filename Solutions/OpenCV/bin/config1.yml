@@ -1,0 +1,18 @@
+%YAML:1.0
+---
+sourcePoint00: [ 897., 677. ]
+sourcePoint01: [ 421., 656. ]
+sourcePoint02: [ 480., 556. ]
+sourcePoint03: [ 821., 565. ]
+sourcePoint10: [ 933., 690. ]
+sourcePoint11: [ 447., 646. ]
+sourcePoint12: [ 500., 554. ]
+sourcePoint13: [ 844., 568. ]
+sourcePoint20: [ 849., 641. ]
+sourcePoint21: [ 395., 635. ]
+sourcePoint22: [ 455., 541. ]
+sourcePoint23: [ 791., 545. ]
+sourcePoint30: [ 855., 656. ]
+sourcePoint31: [ 407., 639. ]
+sourcePoint32: [ 464., 546. ]
+sourcePoint33: [ 796., 555. ]

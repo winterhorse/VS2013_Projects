@@ -6,7 +6,7 @@
 #include <gc_vdk.h>
 #include <GLES3/gl3.h>
 
-const int WINDOW_WIDTH = 1920, WINDOW_HEIGHT = 1080;
+const int WINDOW_WIDTH = 1280, WINDOW_HEIGHT = 720;
 
 typedef struct _MouseOffset
 {

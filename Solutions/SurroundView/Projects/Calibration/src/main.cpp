@@ -261,7 +261,7 @@ void switchState(int new_state) {
 	case defisheye_view:
 		// Defisheye
 		for (uint i = 0; i < cameras.size(); i++)
-			view->changeMesh(cameras[i]->xmap, cameras[i]->ymap, 10, cv::Point2f(((i & 1) - 1.0), ((~i >> 1) & 1)), cam_views[i].mesh_index[0]);
+			view->changeMesh(cameras[i]->xmap, cameras[i]->ymap, 1, cv::Point2f(((i & 1) - 1.0), ((~i >> 1) & 1)), cam_views[i].mesh_index[0]);
 		break;
 
 	case contours_view:
