@@ -10,23 +10,23 @@
 		<camera1>
 			<height>800</height>
 			<width>1280</width>
-			<sf>4.5</sf>
+			<sf>6</sf>
 			<roi>80</roi>
-			<contour_min_size>400</contour_min_size>
+			<contour_min_size>300</contour_min_size>
 			<chessboard_num>3</chessboard_num>
 		</camera1>
 		<camera2>
 			<height>800</height>
 			<width>1280</width>
-			<sf>4.5</sf>
+			<sf>6</sf>
 			<roi>80</roi>
-			<contour_min_size>800</contour_min_size>
+			<contour_min_size>300</contour_min_size>
 			<chessboard_num>3</chessboard_num>
 		</camera2>
 		<camera3>
 			<height>800</height>
 			<width>1280</width>
-			<sf>4.5</sf>
+			<sf>6</sf>
 			<roi>80</roi>
 			<contour_min_size>800</contour_min_size>
 			<chessboard_num>3</chessboard_num>
@@ -34,9 +34,9 @@
 		<camera4>
 			<height>800</height>
 			<width>1280</width>
-			<sf>4.5</sf>
+			<sf>6</sf>
 			<roi>80</roi>
-			<contour_min_size>600</contour_min_size>
+			<contour_min_size>300</contour_min_size>
 			<chessboard_num>3</chessboard_num>
 		</camera4>
 	</camera>
@@ -50,7 +50,7 @@
 		<start_angle>4</start_angle>
 		<nop_z>30</nop_z>
 		<step_x>0.2</step_x>
-		<radius>1.5</radius>
+		<radius>1.7</radius>
 	</grid>
 	<mask>
 		<smooth_angle>0.2</smooth_angle>

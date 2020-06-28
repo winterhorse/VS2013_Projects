@@ -216,8 +216,9 @@ void CurvilinearGrid::reorgGrid(double radius, Camera* camera)
 		step = step / 2; // Increase step
 		if ((point_2d[0].x < distortion_mask.cols) && (point_2d[0].y < distortion_mask.rows) &&
 			(point_2d[0].x >= 0) && (point_2d[0].y >= 0))
-		{
+		{			
 			if (distortion_mask.at<uchar>(point_2d[0]) == 0) // Check mask value
+			//if (distortion_mask.at<uchar>((int)point_2d[0].x, (int)point_2d[0].y) == 0) // Check mask value
 			{
 				point_3d[0].y -= step; // Go down
 			}
