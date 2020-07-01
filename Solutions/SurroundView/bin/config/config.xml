@@ -8,25 +8,25 @@
 		  <camera1>
 			  <height>800</height>
 			  <width>1280</width>
-			  <sf>1.8</sf>
+			  <sf>5</sf>
 			  <contour_min_size>200</contour_min_size>
 		  </camera1>
 		  <camera2>
 			  <height>800</height>
 			  <width>1280</width>
-			  <sf>1.8</sf>
+			  <sf>3</sf>
 			  <contour_min_size>200</contour_min_size>
 		  </camera2>
 		  <camera3>
 			  <height>800</height>
 			  <width>1280</width>
-			  <sf>1.8</sf>
+			  <sf>5</sf>
 			  <contour_min_size>200</contour_min_size>
 		  </camera3>
 		  <camera4>
 			  <height>800</height>
 			  <width>1280</width>
-			  <sf>1.8</sf>
+			  <sf>3</sf>
 			  <contour_min_size>200</contour_min_size>
 		  </camera4>
 	  </camera>
@@ -36,11 +36,11 @@
       <car_height_actual>27</car_height_actual>
     </pattern_actual_size>
     <display>
-      <display_width>600</display_width>
-      <display_height>600</display_height>
+      <display_width>900</display_width>
+      <display_height>800</display_height>
     </display>
     <pattern_pixel_size>
-      <pattern_width>40</pattern_width>
+      <pattern_width>20</pattern_width>
       <shift_width_in>5</shift_width_in>
       <shift_height_in>5</shift_height_in>
       <mask_height>400</mask_height>

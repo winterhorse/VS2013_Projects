@@ -10,7 +10,7 @@
 		<camera1>
 			<height>800</height>
 			<width>1280</width>
-			<sf>6</sf>
+			<sf>9</sf>
 			<roi>80</roi>
 			<contour_min_size>300</contour_min_size>
 			<chessboard_num>3</chessboard_num>
@@ -18,7 +18,7 @@
 		<camera2>
 			<height>800</height>
 			<width>1280</width>
-			<sf>6</sf>
+			<sf>7</sf>
 			<roi>80</roi>
 			<contour_min_size>300</contour_min_size>
 			<chessboard_num>3</chessboard_num>
@@ -26,7 +26,7 @@
 		<camera3>
 			<height>800</height>
 			<width>1280</width>
-			<sf>6</sf>
+			<sf>9</sf>
 			<roi>80</roi>
 			<contour_min_size>800</contour_min_size>
 			<chessboard_num>3</chessboard_num>
@@ -34,7 +34,7 @@
 		<camera4>
 			<height>800</height>
 			<width>1280</width>
-			<sf>6</sf>
+			<sf>7</sf>
 			<roi>80</roi>
 			<contour_min_size>300</contour_min_size>
 			<chessboard_num>3</chessboard_num>
@@ -61,9 +61,9 @@
 		<z_scale>0.5</z_scale>
 	</car_model>
 	<template>
-		<temp_len_ex>1000</temp_len_ex>
-		<temp_len_in>333</temp_len_in>
-		<temp_distance_t13>2700</temp_distance_t13>
-		<temp_distance_t24>2700</temp_distance_t24>
+		<temp_len_ex>900</temp_len_ex>
+		<temp_len_in>300</temp_len_in>
+		<temp_distance_t13>5000</temp_distance_t13>
+		<temp_distance_t24>2200</temp_distance_t24>
 	</template>
 </auomatic_calibration>

@@ -1,32 +1,9 @@
-﻿生成启动时间为 2020/6/28 18:55:22。
-     1>项目“D:\MyProjects\Project_VS2013\Solutions\SurroundView\Projects\2DStitching_GPU\2DStitching_GPU.vcxproj”在节点 2 上(Build 个目标)。
-     1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\main.cpp
-         main.cpp
-     1>D:\MyProjects\Project_VS2013\inc\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>D:\MyProjects\Project_VS2013\inc\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>D:\MyProjects\Project_VS2013\inc\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>D:\MyProjects\Project_VS2013\inc\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>D:\MyProjects\Project_VS2013\inc\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>d:\myprojects\project_vs2013\inc\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
-     1>src\main.cpp(37): warning C4244: “参数”: 从“uint”转换到“float”，可能丢失数据
-     1>src\main.cpp(37): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-     1>src\main.cpp(44): warning C4244: “参数”: 从“uint”转换到“float”，可能丢失数据
-     1>src\main.cpp(44): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-     1>src\main.cpp(24): warning C4101: “data_num”: 未引用的局部变量
-     1>src\main.cpp(23): warning C4101: “data”: 未引用的局部变量
-     1>src\main.cpp(104): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-     1>src\main.cpp(104): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-       Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\MyProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\2DStitching_GPU.exe" /INCREMENTAL /NOLOGO assimp.lib freetype.lib iconv.lib libEGL.lib libGLESv2.lib libOpenCL.lib libVDK.lib libxml2.lib libxml2_a.lib libxml2_a_dll.lib opencv_aruco320d.lib opencv_bgsegm320d.lib opencv_bioinspired320d.lib opencv_calib3d320d.lib opencv_ccalib320d.lib opencv_core320d.lib opencv_datasets320d.lib opencv_dnn320d.lib opencv_dpm320d.lib opencv_face320d.lib opencv_features2d320d.lib opencv_flann320d.lib opencv_fuzzy320d.lib opencv_highgui320d.lib opencv_imgcodecs320d.lib opencv_imgproc320d.lib opencv_line_descriptor320d.lib opencv_ml320d.lib opencv_objdetect320d.lib opencv_optflow320d.lib opencv_phase_unwrapping320d.lib opencv_photo320d.lib opencv_plot320d.lib opencv_reg320d.lib opencv_rgbd320d.lib opencv_saliency320d.lib opencv_shape320d.lib opencv_stereo320d.lib opencv_stitching320d.lib opencv_structured_light320d.lib opencv_superres320d.lib opencv_surface_matching320d.lib opencv_text320d.lib opencv_tracking320d.lib opencv_video320d.lib opencv_videoio320d.lib opencv_videostab320d.lib opencv_xfeatures2d320d.lib opencv_ximgproc320d.lib opencv_xobjdetect320d.lib opencv_xphoto320d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\MyProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\2DStitching_GPU.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\MyProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\2DStitching_GPU.lib" /MACHINE:X64 x64\Debug\Camera.obj
-         x64\Debug\gl_shaders.obj
-         x64\Debug\main.obj
-         x64\Debug\view.obj
-         x64\Debug\XMLParameters.obj
-         2DStitching_GPU.vcxproj -> D:\MyProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\2DStitching_GPU.exe
-     1>已完成生成项目“D:\MyProjects\Project_VS2013\Solutions\SurroundView\Projects\2DStitching_GPU\2DStitching_GPU.vcxproj”(Build 个目标)的操作。
+﻿生成启动时间为 2020-06-29 00:26:30。
+     1>项目“C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\Projects\2DStitching_GPU\2DStitching_GPU.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         2DStitching_GPU.vcxproj -> C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\x64\Debug\2DStitching_GPU.exe
+     1>已完成生成项目“C:\NXP\myProjects\Project_VS2013\Solutions\SurroundView\Projects\2DStitching_GPU\2DStitching_GPU.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.60
+已用时间 00:00:01.51

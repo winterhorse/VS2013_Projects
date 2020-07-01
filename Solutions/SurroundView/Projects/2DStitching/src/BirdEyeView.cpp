@@ -204,11 +204,11 @@ void BirdEyeView::PerspectiveToMaps(const cv::Mat &perspective_mat, const cv::Si
 
 void BirdEyeView::GetTransfromView(const Mat& src, Mat& dst, const int& cameraIndex)
 {
-	//cv::remap(src, dst, mapx[cameraIndex], mapy[cameraIndex], INTER_LINEAR);
+	cv::remap(src, dst, mapx[cameraIndex], mapy[cameraIndex], INTER_LINEAR);
 	//cv::remap(src, dst, mergedMapx[cameraIndex], mergedMapy[cameraIndex], INTER_LINEAR);
 
 	//Remap_cpu(src, dst, mapx[cameraIndex], mapy[cameraIndex]);
-	Remap_cpu(src, dst, mergedMapx[cameraIndex], mergedMapy[cameraIndex]);	
+	//Remap_cpu(src, dst, mergedMapx[cameraIndex], mergedMapy[cameraIndex]);	
 }
 
 Mat BirdEyeView::Run2DStitching(const Mat* images)

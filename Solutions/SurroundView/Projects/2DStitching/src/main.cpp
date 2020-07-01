@@ -37,28 +37,20 @@ int main()
 
 	birdEyeView.Init(srcPointFile.c_str(), parameter, cameras);
 
-	//while (true)
+	for (int i = 0; i < CAMERA_NUMBERS; i++)
 	{
-		for (int i = 0; i < CAMERA_NUMBERS; i++)
-		{
-			caliImage[i] = cameras[i].Defisheye(fisheyeMat[i]);
-			birdEyeView.GetTransfromView(fisheyeMat[i], transfromImage[i], i);
-			//birdEyeView.GetTransfromView(caliImage[i], transfromImage[i], i);
-		}
+		std::string name = "caera_" + to_string(i);	
 
-		imshow("bird view", birdEyeView.Run2DStitching(transfromImage));
+		caliImage[i] = cameras[i].Defisheye(fisheyeMat[i]);
+		imshow(name, caliImage[i]);
+		waitKey(0);
 
-		//if (birdEyeView.SearchKeyPoints(caliImage))
-		//{
-			//imshow("bird view", birdEyeView.TransformView(caliImage));
-			//imshow("bird view", birdEyeView.TransformView(fisheyeMat));
-		//}
-
-		//birdEyeView.TransformView(caliImage);
-
-		//std::cout << "Loop" << std::endl;
+		//birdEyeView.GetTransfromView(fisheyeMat[i], transfromImage[i], i);
+		//birdEyeView.GetTransfromView(caliImage[i], transfromImage[i], i);
 	}
-	
+
+	//imshow("bird view", birdEyeView.Run2DStitching(transfromImage));
+
 	waitKey(0);
 
 	return 0;
